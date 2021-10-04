@@ -1,0 +1,55 @@
+<!--
+=====================================================
+; Title: Assignment 1.5 Components
+; Author: Professor Krasso
+; Modified By: Tierre Green
+; Date: August 2021
+; Description: components profile-app
+=====================================================
+-->
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+  <ul class="navbar-nav">
+
+    <!--Home-->
+    <li class="navbar-item active">
+      <a class="nav-link"href="#">Home</a>
+    </li>
+
+    <!--About-->
+    <li class="navbar-item">
+      <a class="nav-link"href="#">About</a>
+    </li>
+
+    <!--Contact-->
+    <li class="navbar-item">
+      <a class="nav-link"href="#">Contact</a>
+    </li>
+
+  </ul>
+
+</nav>
+<!--Container element for the body-->
+<div class="container" style="float:left">
+  <br/><br/>
+
+  <!--assignment variable-->
+<h2>{{ assignment }}</h2>
+
+<div class="row">
+
+<!--my image-->
+  <div class="col-sm-6">
+    <app-my-image></app-my-image>
+  </div>
+
+<!--Amy details-->
+  <div class="col-sm-6">
+    <app-my-details></app-my-details>
+  </div>
+
+</div>
+
+</div>
